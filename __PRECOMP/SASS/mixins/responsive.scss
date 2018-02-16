@@ -1,0 +1,266 @@
+@media only screen and (max-width: 1024px){
+
+  .mc__wrapper {
+
+    z-index:999999;
+    max-width:555px;
+    width:100%;
+    margin:0 auto;
+    //@include centerer();
+    position:relative;
+    top:inherit;
+    left:inherit;
+    transform:inherit;
+    margin-top:15px;
+  }
+
+  label.mc__dropdown:after {
+    top:-7px;
+
+  }
+}
+
+
+@media only screen and (max-width: 750px){
+
+  .mc__wrapper {
+
+    z-index:999999;
+    max-width:555px;
+    width:100%;
+    margin:0 auto;
+    //@include centerer();
+    position:relative;
+    top:inherit;
+    left:inherit;
+    transform:inherit;
+    margin-top:15px;
+  }
+
+  label.mc__dropdown:after {
+    top:-7px;
+
+  }
+}
+
+
+
+
+@media only screen and (max-width: 620px){
+
+
+
+
+
+
+
+  section {
+    width:96%;
+    margin-left:2%;
+    @include roundCorners();
+    height:auto;
+    margin-bottom:12px;
+    padding-bottom:30px;
+      & h1 {
+        font-size:4vw;
+      }
+      & h2 {
+        font-size: 7vw;
+      }
+      & p {
+
+      }
+      & button {
+
+      }
+      &:nth-of-type(2){
+        margin-bottom:15px;
+        & p {
+
+          &:nth-child(1){
+            padding:29px 0 14px 0;
+          }
+
+          &:nth-child(3) {
+            color:$red;
+            font-family:$itim;
+            font-weight:$ir;
+            font-size:2rem;
+            margin-top:30px;
+            line-height:1.4em;
+
+          }
+        }
+      }
+      &:last-of-type {
+        margin-bottom:15px;
+        & p {
+          font-size:1.7rem;
+          padding-top:30px;
+          & span {
+            font-weight:$rb;
+          }
+        }
+
+      }
+  }
+
+
+  form {
+    width:100%;
+    position:relative;
+    z-index:100;
+    display:none;
+      & div {
+        max-width:91.17%;
+        width:100%;
+        margin:0 auto;
+        & button {
+          background:$red;
+          color:$white;
+          font-family:$itim;
+          font-weight:$ir;
+          font-size:1.8rem;
+          text-align:center;
+          line-height:1.9em;
+          width:auto;
+          display:block;
+
+
+          border:none;
+          margin:14px 0
+        }
+      }
+  }
+
+  button:hover, button:focus {
+    opacity: 0.75;
+    cursor: pointer;
+  }
+
+  button:active {
+    opacity: 1;
+    box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1) inset;
+  }
+
+  input {
+
+  }
+
+  textarea {
+
+
+  }
+
+  label.mc__dropdown select {
+
+  }
+  label.mc__dropdown select:-moz-focusring {
+
+  }
+  label.mc__dropdown select::-ms-expand {
+
+  }
+  label.mc__dropdown:before {
+
+  }
+  label.mc__dropdown { position: relative; }
+  label.mc__dropdown:after {
+
+  }
+  @media screen\0 {
+  	label.mc__dropdown:after {
+
+  	}
+  }
+  @media screen and (min--moz-device-pixel-ratio:0) {
+  	label.mc__dropdown select { padding-right: 40px; }
+  	label.mc__dropdown:before { right: 6px; }
+  	label.mc__dropdown:after {
+
+  	}
+  }
+
+  #form-messages {
+    @include centerer();
+    z-index:1000;
+    max-width:71%;
+    width:100%;
+    font-size:1.6rem;
+    line-height:2em;
+    font-family:$rubik;
+    font-weight:$rr;
+    z-index:1000;
+    max-width:71%;
+    width:100%;
+    padding-top:40px;
+
+  }
+
+  .success {
+    @include successCorners();
+    padding: 1em;
+    margin-bottom: 0.75rem;
+    color: $black;
+    &:before {
+      color: #535253;
+      content: "x";
+      opacity: 1;
+      position: absolute;
+      right: 10px;
+      text-align: center;
+      top: 10px;
+      vertical-align: middle;
+      z-index: 1;
+      cursor:pointer;
+      border: 1px solid rgba(29, 16, 15, 1.0);
+      border-radius: 14px;
+      background: rgba(216, 216, 216, 1.0);
+      font-size: 14px;
+      font-weight: bold;
+      display: inline-block;
+      line-height: 14px;
+      padding: 1px 4px;
+
+
+
+
+    }
+
+  }
+
+  .error {
+    @include errorCorners();
+    padding: 1em;
+    margin-bottom: 0.75rem;
+    color: $white;
+    &:before {
+      color: #535253;
+      content: "x";
+      opacity: 1;
+      position: absolute;
+      right: 10px;
+      text-align: center;
+      top: 10px;
+      vertical-align: middle;
+      z-index: 1;
+      cursor:pointer;
+      border: 1px solid rgba(29, 16, 15, 1.0);
+      border-radius: 14px;
+      background: rgba(216, 216, 216, 1.0);
+      font-size: 14px;
+      font-weight: bold;
+      display: inline-block;
+      line-height: 14px;
+      padding: 1px 4px;
+      text-align: center;
+      width: 20px;
+      height: 20px;
+      line-height:14px;
+      border-radius: 20px;
+    }
+  }
+
+
+
+}
